@@ -1,0 +1,102 @@
+*{
+    font-family:sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+
+}
+
+form{
+padding: 100px;
+background-image: url(carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg);
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  
+}
+.form{
+display: flex;
+justify-content: center;
+align-self: center;
+margin-top: 50px;
+/* width: 500px; */
+padding: 50px;
+}
+
+.form input{
+        width: 400px;
+        height: 30px;
+        padding: 5px;
+        margin-bottom: 10px;
+        
+}
+ select{
+    width: 190px;
+    height: 45px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 3px;
+    color:rgb(153, 152, 152);
+} 
+.line1 input {
+
+    width: 185px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+h1, hr{
+    padding: 10px;
+    outline: none;
+    font-weight: bolder;
+}
+
+.line2 input{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+
+#checkbox{
+height: 15px;
+margin-right: -10px;
+padding: 0px;
+justify-content: left;
+align-content: left;
+justify-items: left;
+
+}
+/* 
+#fas{
+
+    height: 30px;
+    width: 100px;
+    background-color: yellowgreen;
+    margin-left: 300px;
+} */
+
+.signupbtn{
+    width: 415px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 15px;
+    background-color:#f9b634 ;
+    outline: #f9b634;
+    border: none;
+}
+.signupbtn:hover{
+background-color:#eea826 ;
+pointer-events: visible;
+
+
+}
